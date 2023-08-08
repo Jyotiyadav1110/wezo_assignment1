@@ -5,6 +5,12 @@ import CheckBoxOutlineBlankOutlinedIcon from "@mui/icons-material/CheckBoxOutlin
 import BookmarkBorderOutlinedIcon from "@mui/icons-material/BookmarkBorderOutlined";
 import AttachEmailOutlinedIcon from "@mui/icons-material/AttachEmailOutlined";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
+import Ellipse10 from './img/Ellipse10.jpg';
+import Ellipse11 from './img/Ellipse11.jpg';
+import Ellipse12 from './img/Ellipse12.jpg';
+import Ellipse13 from './img/Ellipse13.jpg';
+import Ellipse14 from './img/Ellipse14.jpg';
+// import Ellipse15 from './img/Ellipse15.jpg';
 export default function MainDashboard() {
   return (
     <div className="main-dash-wrapper">
@@ -30,10 +36,8 @@ export default function MainDashboard() {
           <p className="time-text common-font">10:30 AM</p>
           <CheckBoxOutlineBlankOutlinedIcon className="msg-box-icon" />
           <BookmarkBorderOutlinedIcon className="msg-box-icon" />
-          <img
-            src="https://via.placeholder.com/63x63"
-            className="user-profile"
-          />
+          <img src={Ellipse10} className="user-profile"/>
+
           <div className="name-box">
             <p className="common-font">Coursera</p>
             <p className="common-font">
@@ -56,10 +60,8 @@ export default function MainDashboard() {
           <p className="time-text common-font">10:30 AM</p>
           <CheckBoxOutlineBlankOutlinedIcon className="msg-box-icon" />
           <BookmarkBorderOutlinedIcon className="msg-box-icon" />
-          <img
-            src="https://via.placeholder.com/63x63"
-            className="user-profile"
-          />
+          
+          <img src={Ellipse11} className="user-profile"/>
           <div className="name-box">
             <p className="common-font">Coursera</p>
             <p className="common-font">
@@ -82,10 +84,8 @@ export default function MainDashboard() {
           <p className="time-text common-font">10:30 AM</p>
           <CheckBoxOutlineBlankOutlinedIcon className="msg-box-icon" />
           <BookmarkBorderOutlinedIcon className="msg-box-icon" />
-          <img
-            src="https://via.placeholder.com/63x63"
-            className="user-profile"
-          />
+          <img src={Ellipse12} className="user-profile"/>
+
           <div className="name-box">
             <p className="common-font">Coursera</p>
             <p className="common-font">
@@ -108,10 +108,8 @@ export default function MainDashboard() {
           <p className="time-text common-font">10:30 AM</p>
           <CheckBoxOutlineBlankOutlinedIcon className="msg-box-icon" />
           <BookmarkBorderOutlinedIcon className="msg-box-icon" />
-          <img
-            src="https://via.placeholder.com/63x63"
-            className="user-profile"
-          />
+          <img src={Ellipse13} className="user-profile"/>
+
           <div className="name-box">
             <p className="common-font">Coursera</p>
             <p className="common-font">
@@ -134,10 +132,8 @@ export default function MainDashboard() {
           <p className="time-text common-font">10:30 AM</p>
           <CheckBoxOutlineBlankOutlinedIcon className="msg-box-icon" />
           <BookmarkBorderOutlinedIcon className="msg-box-icon" />
-          <img
-            src="https://via.placeholder.com/63x63"
-            className="user-profile"
-          />
+          <img src={Ellipse14} className="user-profile"/>
+
           <div className="name-box">
             <p className="common-font">Coursera</p>
             <p className="common-font">
