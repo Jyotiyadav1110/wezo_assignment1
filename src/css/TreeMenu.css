@@ -1,0 +1,32 @@
+.mid-sec-wrap {
+  width: 17%;
+  padding: 40px;
+}
+.hundred {
+  background-color: var(--red);
+  padding: 1px 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.icons {
+  font-size: 24px;
+}
+.white-menu-list p {
+  margin: 0;
+  padding-left: 15px;
+}
+.white-menu-list li {
+  padding-bottom: 15px;
+}
+::marker {
+  font-size: 24px;
+}
+.submenu-list {
+  padding-left: 10px;
+}
+.less-data {
+  padding-left: 10px;
+}
+.less-data summary {
+  padding-bottom: 20px;
+}

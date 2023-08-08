@@ -1,0 +1,115 @@
+.common-font{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.54px;
+}
+.main-dash-wrapper{
+    width: 66%;
+    padding: 25px 20px;
+    color: var(--white);
+    min-height: 958px;
+    background: linear-gradient(90deg, rgba(16,17,60,0.95) 0%, rgba(165,46,89,1) 100%);
+}
+h1{
+    font-size: 24px;
+    line-height: 30px; /* 125% */
+letter-spacing: 0.72px;
+}
+.heading-cont{
+    width: 40%;
+}
+.heading-cont h1{
+    padding-bottom: 5px;
+}
+.header-sec, .search{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 5px;
+}
+
+.search input{
+    outline: none;
+    background: transparent;
+    border: none;
+    padding-left: 15px;
+}
+.search input::placeholder{
+    color: var(--white);
+font-size: 16px;
+line-height: 20px; /* 125% */
+letter-spacing: 0.48px;
+}
+.search-icon{
+    font-size: 24px;
+}
+.horizontal-list .active-list-item{
+    font-weight: 400;
+    border-bottom: 2px solid var(--white);
+}
+
+.horizontal-menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.setting-icon{
+    color: var(--white);
+    font-size: 21px;
+    font-weight: 400;
+    align-self: flex-end;
+}
+
+.horizontal-list li{
+    display: inline-block !important;
+    font-weight: 700;
+    margin-right: 50px;
+}
+.user-profile{
+    max-width: 63px;
+    border-radius: 50%;
+}
+.Message-content{
+    padding-top: 15px;
+}
+.msg-box{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 20px;
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    gap:20px;
+    position: relative;
+}
+.time-text{
+position: absolute;
+right: 20px;
+top: 10px;
+}
+.message{
+    padding-left: 30px;
+    max-width: 434px;
+    display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.msg-box-icon, .right-arrow{
+    font-size: 26px;
+} 
+.pagination-section{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    padding-top: 65px;
+}
+.numbers{
+width: 27px;
+height: 27px;
+border-radius: 50%;
+border: 1px solid var(--white);
+text-align: center;
+}
