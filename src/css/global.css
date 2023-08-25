@@ -3,10 +3,11 @@
 :root{
   --white: #fff;
   --red: #FF3838;
+
 }* {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-  
+  /* margin: 0; */
 }
 .wrapper{
   display: flex;
@@ -17,9 +18,9 @@
 p{
   font-size: 16px;
   font-weight: 400;
-line-height: 20px; /* 125% */
-letter-spacing: 0.48px;
-margin: 0;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.48px;
+  margin: 0;
 }
 
 ul{
@@ -46,12 +47,14 @@ ul li{
   border: 1px solid black;
   min-height: 958px;
 }
-@media (max-width: 767px){
+
+/* @media (max-width: 767px){
   .wrapper{
     flex-direction: column;
   }
+
   .left-section-wrapper, .main-dash-wrapper, .main-dash-wrapper{
     width: 100% !important;
   }
   
-}
+} */
