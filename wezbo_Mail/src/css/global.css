@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+  --white: #fff;
+  --black:#000;
+  --red: #FF3838;
+  --gray:#817f7f;
+}* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+.wrapper{
+  display: flex;
+}
+.fst-section{
+  width: 10%;
+}
+p{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.48px;
+  margin: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul li{
+  display: flex;
+  align-items: center;
+}
+.reset-txt{
+  margin: 0 !important;
+}
+.white-txt{
+  color: #fff;
+}
+.small-txt {
+  font-size: 10px;
+  letter-spacing: 0.2px;
+}
+.container {
+  margin: auto;
+  /* border: 1px solid black; */
+}
+
+
+/* Headre1 css */
+
+.main-dash-wrapper-header1{
+  min-height: 20%!important;
+  /* padding: 20px!important; */
+}
+
+.searchinput{
+  background: transparent;
+  border: none;
+  padding: 5px 6px 1px 1px;
+  /* height: 20%; */
+}
+.border-line{
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  display: flex;
+  width: 1000px;
+  padding: 19px 726.917px 21px 30px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.border-line p{
+  width: 21px;
+  height: 19px;
+}
+
+.Message-content-header1{
+  border-bottom: 1px solid grey;
+}
+.storage-header-footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 66%;
+}
+
+.social-dashboard-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #FF3838;
+}
+/* Sent css */
+.main-dash-container{
+  display: flex;
+}
+.footheader{
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container-social{
+  display: flex;
+}
+
+@media (max-width: 767px){
+  .wrapper{
+    flex-direction: column;
+  }
+  .left-section-wrapper, .main-dash-wrapper, .main-dash-wrapper{
+    width: 50%;
+  }
+  
+}
+@media screen and (max-width: 800px) {
+  .message {
+      /* padding-left: 5px; */
+      max-width: 152px;
+    /* width: 100%; */
+     /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  .msg-box {
+      display: flex;
+      align-items: center;
+      padding: 0px;
+      border: 1px solid var(--gray);
+      position: relative;
+      color: white;
+      font-size: 5px;
+}
+.mid-sec-wrap,.left-section-wrapper{
+  display: none;
+}
+}

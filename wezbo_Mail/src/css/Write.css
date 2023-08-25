@@ -1,0 +1,21 @@
+.main-container-write{
+    display: flex;
+    width:33%;
+    background: #000;
+    padding: 10px;
+    flex-direction: column;
+}
+.write-container{
+    display: flex;
+    gap: 42px;
+    justify-content: space-around;
+    align-items: center;
+}
+h3{
+    color: #fff;
+    font-size: 27px;
+}
+.write-container input{
+    border-radius: 5px;
+    width: 90%;;
+}

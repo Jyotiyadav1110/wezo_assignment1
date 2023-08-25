@@ -1,0 +1,74 @@
+
+.wrapper{
+  display: flex;
+}
+.left-section-wrapper p{
+  margin: 0;
+}
+.left-section-wrapper {
+  padding: 12px 45px;
+  width: 17%;
+  min-height: 958px;
+  background: linear-gradient(90deg, rgba(16,17,60,0.95) 0%, rgba(165,46,89,1) 100%);
+}
+
+.user-email,
+.user-name {
+  font-weight: 400;
+}
+.user-name {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.48px;
+  padding-bottom: 2px;
+}
+.profile-image{
+  border-radius: 5px;
+  width: 39px;
+  height: 49px;
+  /* background-image: url("./icons/logowezboword.jpg"); */
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  padding: 0px 9px;
+}
+.profile-detail{
+  padding-left: 13px;
+}
+.menu-list{
+  padding: 23px 0 0 0;
+  margin: 0;
+}
+.menu-list li{
+  margin-bottom: 30px;
+  width: fit-content;
+  width: 24px;
+  height: 24px;
+  
+}
+.menu-item{
+  padding: 2px 10px;
+}
+.menu-item p{
+  padding: 0 21px;
+}
+.menu-list .active-menu-item{
+  border: 1px solid var(--white);
+  border-radius: 5px;
+}
+.menu-list:hover{
+    border-radius: 5px solid white;
+}
+.menu-icons{
+  font-size:24px ;
+  color: white;
+}
+.active-circle{
+  color: var(--red);
+  font-size: 14px !important;
+}
+.small-txt{
+  font-size: 12px;
+}

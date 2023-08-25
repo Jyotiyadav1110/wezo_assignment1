@@ -1,0 +1,35 @@
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* width: 90%; */
+}
+.menuDataboard{
+    /* padding: 30px 45px; */
+    width: 17%;
+    /* min-height: 958px; */
+    background: linear-gradient(90deg, rgba(16,17,60,0.95) 0%, rgba(165,46,89,1) 100%);
+}
+
+.TreeMenu{
+    width: 17%;
+    padding: 40px;
+}
+
+.MainDashboard{
+    width: 66%;
+    /* padding: 25px 20px; */
+    color: var(--white);
+    /* min-height: 958px; */
+    background: linear-gradient(90deg, rgba(16,17,60,0.95) 0%, rgba(165,46,89,1) 100%);
+}
+
+.footer-line{
+    display: flex;
+    justify-content: end;
+    /* align-items: end; */
+    /* padding-right: 20px; */
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+}

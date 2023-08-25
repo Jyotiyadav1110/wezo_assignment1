@@ -1,0 +1,5 @@
+
+.container-reader-grid{
+    display: grid;
+    grid-column-start: 1;
+}

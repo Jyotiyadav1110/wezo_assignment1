@@ -1,0 +1,103 @@
+.main-container1{
+    /* height: 750px; */
+    /* width: 90%; */
+}
+.Bin1{
+   margin-top: 140px;
+   justify-content: space-between;
+    display: flex;
+    }
+
+.emptybin{
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif!important;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    color: #fff;
+    border-radius: 6px;
+
+}
+   .emptybin1{
+    color: #FFFAFA;
+    text-align: center;
+    font-family: sans-serif!important;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+   }
+
+   button{
+    display: flex;
+    width: 163px;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    color: #FFFAFA;
+    font-family: sans-serif!important;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    background-color: transparent;
+    border: 1px solid white;
+    }
+
+    .main-container-reader{
+        padding: 30px;
+        /* background-color: aqua; */
+        /* width: 60%; */
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 2%;
+        /* margin-left: 478px;; */
+        /* margin-top: -417px; */
+        grid-row-gap: 180px;
+        /* background-color: #FFFAFA; */
+    }
+    .container-reader{
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        border: 2px solid #FFFAFA;
+        flex-direction: column;
+        justify-content: center;
+        /* padding: 20px; */
+        margin-top: -47%;
+        padding: 3%;
+    }
+    .container-reader-header{
+        display: flex;
+        gap: 200px;
+    }
+    .container-reader-img{
+        padding: 4%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    spam{
+        color: #FFFAFA;
+        /* text-align: center; */
+        font-family:sans-serif!important;
+        font-size: 18px;
+        /* font-style: normal; */
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.36px;
+    }
+ .readmore{
+    display: flex;
+    justify-content: right;
+    margin-left: 2px;
+    margin-right: 6px;
+    margin-top: -17px;
+
+ }

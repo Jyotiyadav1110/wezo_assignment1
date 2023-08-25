@@ -1,0 +1,107 @@
+
+.headeindeeplcean{
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    /* margin-right: 82%; */
+    padding-right: 704px;
+}
+.top-heading-deep-clean{
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif!important;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+} 
+.top-heading-deep-clean p{
+    padding-top: 19px;
+    font-size: 20px;
+}
+.main-container-deeepclean{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 120px 80px;
+}
+.headeindeeplcean{
+    padding-left: 0;
+}
+.deepclean-icons{
+    /* padding: 2%; */
+    gap: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.circle{
+    width: 335px;
+    height: 335px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    padding: 10%;
+    border: 2px solid #FFF;
+}
+.img1deepclean{
+    margin-top: -9px;
+}
+
+.circle1{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    padding: 2%;
+    border: 2px solid #FFF;
+    justify-content: center;
+    align-items: center;
+    padding-left: -10px;
+    flex-direction: column;
+    margin-top: 117px
+}
+
+.img2{
+    margin-left: 35px;
+}
+.deepcleanbtn{
+    margin-top: 20%;
+    display: inline-flex;
+    padding: 11px 127px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+span{
+    margin-top: -17px;
+}
+.clean1{
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif!important;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-left: 20px;
+}
+.clean2{
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif!important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    overflow: hidden;
+    white-space: nowrap;
+}

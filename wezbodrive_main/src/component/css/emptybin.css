@@ -1,0 +1,201 @@
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+.main-container{
+    /* background: var(--new-color-3, linear-gradient(132deg, rgba(191, 191, 226, 0.4) 10%, #646ce4 100%)); */
+    /* background: var(--new-color-3, linear-gradient(132deg, rgba(53, 37, 53, 0.4) 10%, #f1f2f7 100%)); */
+    /* background: linear-gradient(132deg, rgba(16, 17, 60, 0.40) 0%, #A52E59 100%); */
+      background: linear-gradient(90deg, rgba(16,17,60,0.95) 15%, rgba(165,46,89,1) 100%);
+
+    /* background-color: rgb(236, 231, 231); */
+    display: flex;
+    min-height: 750px;
+    /* background: no-repeat; */
+}
+
+.container1{
+    padding: 140px 45px;
+    width: fit-content;
+    min-height: 758px;
+    padding-left: 10px;
+    /* min-height: 958px; */
+}
+.logos{
+    padding-bottom: 50px;
+}
+
+.logo-image{
+    /* color: #FFFAFA; */
+    color: #fff;
+    padding-bottom: 20px;
+
+    /* width: 252px; */
+    /* height: 958px; */
+    /* flex-shrink: 0; */
+}
+.searchbar{
+    /* color:#FFFAFA; */
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif!important;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 20PX;
+    padding:12px 0 0 48px ;
+    }
+.leftside-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 25PX;
+    padding: 10px 8px;
+    border: 2px solid transparent;
+    
+}
+.leftside-container:hover{
+    border: 2px solid rgb(114, 110, 110);
+    border-radius: 40px;
+    text-decoration: none;
+    /* height: auto; */
+}
+
+.leftside-container img{
+    width: 25px;
+    height: 25px;
+    color: #000000;
+}
+.deletelogo{
+    margin-top: 15%;
+    margin-left: -39%;
+    /* box-shadow: 1px 2px 2px 1px grey; */
+}
+.deletelogo img{
+    width: 152.833px;
+    height: 196.5px;
+    flex-shrink: 0;
+    margin-left: 15%;
+    
+}
+.line{
+    margin-top: 162px;
+    width: 3px;
+    height: 78%;
+    background-color: #fff;
+    color: #fff;
+    margin-left: -32px;
+}
+/* .searchbar{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 20PX;
+    padding:12px 0 0 48px ;
+} */
+.DP{
+    padding-right: 40px;;
+    padding-left: 125px;
+    /* margin-right: 10%; */
+    gap: 5%;
+    display: flex;
+    align-items: self-end;
+
+}
+.container2{
+    /* display: flex; */
+    width: 100%;
+    align-items: start;
+    padding-top: 30px;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+}
+
+
+.top-container2{
+    left: 900px;
+   display: flex;
+    justify-content: end;
+    gap: 20%;
+    padding-top: 30px;
+    flex-direction: row;
+    position: absolute;
+    width: -moz-fit-content;
+   width: fit-content;
+}
+.bin{
+    display: flex;
+    gap: 725px;
+    margin-top: 90px;
+    justify-content: center;
+    margin-left: 50px;
+    /* box-shadow: 1px -2px 22px 2px grey; */
+
+}
+.bin p{
+    /* color: #fff;
+    text-align: center; */
+    font-family: sans-serif!important;
+    font-size: 30px;
+    /* font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-top: 15px; */
+    /* border: 1px solid #fff; */
+}
+.emptybin{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    padding: 15px;
+    font-size: 20px;
+    height: 29px;
+    border-radius: 3px;
+    color: grey;
+    padding-right: 226px;
+
+}
+.setting-icon{
+    font-size: 50px;
+}
+
+.Emptybin{
+    /* border: 1px solid white; */
+    /* border: 1px solid rgb(68, 67, 67); */
+    padding: 13px;
+    border-radius: 5px;
+    width: 11%;
+}
+.deletelogo{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 14%;
+    color: rgb(68, 67, 67);
+}
+.deletelogo p{
+   color: #FFF;
+    text-align: center;
+    font-family: sans-serif!important;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    /* margin-left: 49px; */
+    padding-top: 54px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* text-align: center; */
+    margin: -8px -147px;
+}
+.removedpcorner{
+    border-radius: 50%;
+}

@@ -1,0 +1,31 @@
+body {
+    background-color: "color";
+  }
+  #color1 {
+    -webkit-appearance: none;
+    width: 3rem;
+    height: 1.5rem;
+    border-radius: 50%;
+  }
+  #color1::-webkit-color-swatch {
+    border-radius: 50%;
+  }
+  
+  #color2 {
+    -webkit-appearance: none;
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  #color2::-webkit-color-swatch {
+    border: none;
+    border-radius: 10px;
+    padding: 0;
+  }
+  #color2::-webkit-color-swatch-wrapper {
+    border: none;
+    border-radius: 10px;
+    padding: 0;
+  }

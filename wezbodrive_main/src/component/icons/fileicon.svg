@@ -1,0 +1,26 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="30" height="30" fill="none"/>
+<g id="collaborate" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="1508" transform="translate(-328 -252)" fill="none"/>
+<g id="Frame 229">
+<g id="Frame 228">
+<g id="Frame 227">
+<g id="Frame 226">
+<g id="material-symbols:folder">
+<path id="Vector" d="M5 25C4.3125 25 3.72417 24.7554 3.235 24.2663C2.745 23.7763 2.5 23.1875 2.5 22.5V7.5C2.5 6.8125 2.745 6.22417 3.235 5.735C3.72417 5.245 4.3125 5 5 5H12.5L15 7.5H25C25.6875 7.5 26.2763 7.745 26.7663 8.235C27.2554 8.72417 27.5 9.3125 27.5 10V22.5C27.5 23.1875 27.2554 23.7763 26.7663 24.2663C26.2763 24.7554 25.6875 25 25 25H5Z" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="-391" y1="-231.199" x2="1805.88" y2="245.642" gradientUnits="userSpaceOnUse">
+<stop stop-color="#10113C" stop-opacity="0.4"/>
+<stop offset="1" stop-color="#A52E59"/>
+</linearGradient>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="1508" fill="white" transform="translate(-328 -252)"/>
+</clipPath>
+</defs>
+</svg>

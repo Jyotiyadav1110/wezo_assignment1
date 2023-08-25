@@ -1,0 +1,174 @@
+.container-mydrive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    /* padding: 0; */
+    flex-direction: column;
+    margin-left: 76px;
+    text-align: center;
+    /* padding: -3px; */
+    margin-top: 120px;
+    justify-content: start;
+    
+}
+.mydriveheading {
+    display: flex;
+    flex-direction: row;
+    gap: 591px;
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif!important;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    padding: 0;
+}
+
+.createnewfolder{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: sans-serif!important;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    text-decoration-line: underline;
+}
+
+.belowheading{
+    display: flex;
+    flex-direction: row;
+    gap: 50%;
+    padding: 10%;
+    list-style: none;
+    width: 290px;
+    height: 162px;
+    padding: 29px 30px;
+    align-items: flex-start;
+    gap: 35%;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 5px solid #FFF;
+    }
+
+.files{
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif!important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.designline{
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif!important;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+.mydrive-container{
+    display: flex;
+    flex-direction: row;
+}
+.mydrive-container1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.mydrive-inner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-mydrive-allfile-section{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* width: 935px; */
+    flex-direction: row;
+    padding-left: -37px;
+    /* max-width: 1051px; */
+    border-top: 1x solid white;
+    /* background: linear-gradient(90deg, rgba(16, 17, 60, 0.40) 0%, #A52E59 100%); */
+}
+.list-section{
+    width: 100%;
+}
+.allfiles{
+    width: 100%;;
+    display: flex;
+    /* width: 707px; */
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 517px; */
+    list-style: none;
+}
+
+.allfiles > li{
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+.main-allfiles-container{
+    /* display: flex; */
+    width: 100%;
+}
+.main-allfiles-container-map{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   /* gap: 10px; */
+}
+.allfiles-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid #000;
+    background: #FFF;
+    color: #000;
+    justify-content: space-around;
+    }
+    .allfiles-container p{
+        color: #000;
+    }
+    .recentfile-container-heading{
+        display: flex;
+        /* justify-content: space-between */
+    }
+    .recentfile-container-heading{
+        color: #FFFCFC;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.6px;
+
+    }
+    .fileicon{
+    width: 20px;
+    gap: 10px;
+    }
